@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from './components/Navbar'
+import GlobalChat from './components/GlobalChat'
 
 export const metadata: Metadata = {
   title: 'Mystica - Numerology, Astrology & Spiritual Guidance',
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className="bg-black text-white">
         <Navbar />
         {children}
+        <GlobalChat />
       </body>
     </html>
   )
