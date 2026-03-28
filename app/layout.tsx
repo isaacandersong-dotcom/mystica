@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Navbar from './components/Navbar'
 
 export const metadata: Metadata = {
-  title: 'Mystica - AI Tarot Reading',
-  description: 'Experience mystical tarot readings powered by AI',
+  title: 'Mystica - Numerology, Astrology & Spiritual Guidance',
+  description: 'Discover the cosmic patterns that shape your life through numerology, astrology, and ancient spiritual wisdom.',
 }
 
 export default function RootLayout({
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-black text-white">
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
