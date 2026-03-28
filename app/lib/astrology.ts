@@ -145,7 +145,7 @@ export function getZodiacDescription(sign: string): string {
     Leo: 'Confident, creative, and generous. You shine brightly and inspire others.',
     Virgo: 'Analytical, practical, and helpful. You perfect and organize everything.',
     Libra: 'Harmonious, diplomatic, and artistic. You seek balance and beauty.',
-    Scorpio: 'Intense, transformative, and mysterious. You dive deep into life's mysteries.',
+    Scorpio: 'Intense, transformative, and mysterious. You dive deep into life\'s mysteries.',
     Sagittarius: 'Adventurous, philosophical, and optimistic. You seek truth and freedom.',
     Capricorn: 'Ambitious, disciplined, and responsible. You build lasting legacies.',
     Aquarius: 'Innovative, humanitarian, and independent. You envision a better future.',
